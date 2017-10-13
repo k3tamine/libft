@@ -6,7 +6,7 @@
 #    By: mgonon <mgonon@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2016/11/03 23:59:50 by mgonon            #+#    #+#              #
-#    Updated: 2017/08/24 17:26:18 by mgonon           ###   ########.fr        #
+#    Updated: 2017/10/13 15:33:28 by mgonon           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,7 +52,9 @@ SRC = ft_isalpha.c \
 	  ft_strsub.c \
 	  ft_strupper.c \
 	  ft_strjoin.c \
+	  ft_strjoin_free.c \
 	  ft_strnjoin.c \
+	  ft_strnjoin_free.c \
 	  ft_strtrim.c \
 	  ft_strchr.c \
 	  ft_strrchr.c \
@@ -79,6 +81,15 @@ SRC = ft_isalpha.c \
 	  ft_strnew_c.c \
 	  ft_itoa_base.c \
 	  get_next_line.c \
+	  ft_printf/fill_characters.c \
+	  ft_printf/fill_format.c \
+	  ft_printf/fill_signed.c \
+	  ft_printf/fill_unsigned.c \
+	  ft_printf/ft_printf.c \
+	  ft_printf/get_arg.c \
+	  ft_printf/get_char_arg.c \
+	  ft_printf/get_unicode.c \
+	  ft_printf/tools.c \
 
 OBJ = $(SRC:.c=.o)
 
